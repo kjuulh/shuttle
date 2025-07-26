@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/cmder"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/cmder"
 )
 
 func TestCmderWithError(t *testing.T) {

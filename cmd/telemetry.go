@@ -4,7 +4,7 @@ import (
 	stdcontext "context"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/telemetry"
+	"github.com/kjuulh/shuttle/pkg/telemetry"
 )
 
 func trace(

@@ -2,7 +2,7 @@ module actions
 
 go 1.20
 
-require github.com/lunarway/shuttle v0.19.0
+require github.com/kjuulh/shuttle v0.19.0
 
 require (
 	github.com/Masterminds/goutils v1.1.1 // indirect

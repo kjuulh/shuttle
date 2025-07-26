@@ -6,9 +6,9 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/templates"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/templates"
+	"github.com/kjuulh/shuttle/pkg/ui"
 
 	"github.com/spf13/cobra"
 )

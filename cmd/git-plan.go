@@ -3,8 +3,8 @@ package cmd
 import (
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/git"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/git"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"github.com/spf13/cobra"
 )
 

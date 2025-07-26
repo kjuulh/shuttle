@@ -1,4 +1,4 @@
-module github.com/lunarway/shuttle
+module github.com/kjuulh/shuttle
 
 go 1.23.0
 

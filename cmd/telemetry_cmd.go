@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lunarway/shuttle/pkg/telemetry"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/telemetry"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func newTelemetry(uii *ui.UI) *cobra.Command {

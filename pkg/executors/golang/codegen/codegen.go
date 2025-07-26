@@ -8,8 +8,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
-	"github.com/lunarway/shuttle/pkg/executors/golang/parser"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/parser"
 )
 
 //go:embed templates/mainFile.tmpl

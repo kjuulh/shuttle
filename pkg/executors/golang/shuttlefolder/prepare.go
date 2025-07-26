@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
 	cp "github.com/otiai10/copy"
 )
 

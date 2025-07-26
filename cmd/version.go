@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"github.com/spf13/cobra"
 )
 

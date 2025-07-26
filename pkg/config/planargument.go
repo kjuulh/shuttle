@@ -5,7 +5,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/git"
+	"github.com/kjuulh/shuttle/pkg/git"
 )
 
 func isPlanArgumentAFilePlan(planArgument string) bool {

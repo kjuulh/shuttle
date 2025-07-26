@@ -1,18 +1,18 @@
 <p align="center">
-  <a href="https://github.com/lunarway/shuttle">
+  <a href="https://github.com/kjuulh/shuttle">
     <img src="docs/logo.png" alt="Shuttle logo">
   </a>
 
 <p align="center">
     A CLI for handling shared build and deploy tools between many projects no matter what technologies the project is using.
     <br>
-    <a href="https://github.com/lunarway/shuttle/issues/new?template=bug.md">Report bug</a>
+    <a href="https://github.com/kjuulh/shuttle/issues/new?template=bug.md">Report bug</a>
     ·
-    <a href="https://github.com/lunarway/shuttle/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://github.com/kjuulh/shuttle/issues/new?template=feature.md&labels=feature">Request feature</a>
     ·
-    <a href="https://github.com/lunarway/shuttle/releases">Releases</a>
+    <a href="https://github.com/kjuulh/shuttle/releases">Releases</a>
     ·
-    <a href="https://github.com/lunarway/shuttle/releases/latest">Latest release</a>
+    <a href="https://github.com/kjuulh/shuttle/releases/latest">Latest release</a>
   </p>
 </p>
 
@@ -38,7 +38,7 @@ _DISCLAIMER: shuttle is in beta, so stuff may change. However we are using
 shuttle heavily at Lunar Way and we use it to deploy to production, so it is
 pretty battle proven._
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/lunarway/shuttle)](https://goreportcard.com/report/github.com/lunarway/shuttle)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kjuulh/shuttle)](https://goreportcard.com/report/github.com/kjuulh/shuttle)
 
 ## How?
 
@@ -152,11 +152,11 @@ documentation: https://docs.my-corp.com
 
 If no specific `documentation` field is set in the plan it will be inferred from
 the plan reference. In below example shuttle will open
-`https://github.com/lunarway/shuttle-example-go-plan.git`
+`https://github.com/kjuulh/shuttle-example-go-plan.git`
 
 ```yaml
 # shuttle.yaml
-plan: git://git@github.com:lunarway/shuttle-example-go-plan.git
+plan: git://git@github.com:kjuulh/shuttle-example-go-plan.git
 ```
 
 ### Git Plan
@@ -164,21 +164,21 @@ plan: git://git@github.com:lunarway/shuttle-example-go-plan.git
 Specify the protocol to use for pulling the remote repository using either
 `https://` for HTTPS, or `git://` for SSH:
 
-- `https://github.com/lunarway/shuttle-example-go-plan.git`
-- `git://git@github.com:lunarway/shuttle-example-go-plan.git`
+- `https://github.com/kjuulh/shuttle-example-go-plan.git`
+- `git://git@github.com:kjuulh/shuttle-example-go-plan.git`
 
 Choose a specific branch to use:
 
-- `https://github.com/lunarway/shuttle-example-go-plan.git#change-build`
-- `git://git@github.com:lunarway/shuttle-example-go-plan.git#change-build`
+- `https://github.com/kjuulh/shuttle-example-go-plan.git#change-build`
+- `git://git@github.com:kjuulh/shuttle-example-go-plan.git#change-build`
 
 The `#change-build` points the plan to a specific branch, which by default would
 be `master`.
 
 It can also be used to point to a tag or a git SHA, like this:
 
-- `https://github.com/lunarway/shuttle-example-go-plan.git#v1.2.3`
-- `git://git@github.com:lunarway/shuttle-example-go-plan.git#46ce3cc`
+- `https://github.com/kjuulh/shuttle-example-go-plan.git#v1.2.3`
+- `git://git@github.com:kjuulh/shuttle-example-go-plan.git#46ce3cc`
 
 #### Caching
 
@@ -209,7 +209,7 @@ Following arguments are supported
 ### Mac OS
 
 ```console
-curl -LO https://github.com/lunarway/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/lunarway/shuttle/releases/latest | grep -o '[^/]*$')/shuttle-darwin-amd64
+curl -LO https://github.com/kjuulh/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/kjuulh/shuttle/releases/latest | grep -o '[^/]*$')/shuttle-darwin-amd64
 chmod +x shuttle-darwin-amd64
 sudo mv shuttle-darwin-amd64 /usr/local/bin/shuttle
 ```
@@ -219,7 +219,7 @@ sudo mv shuttle-darwin-amd64 /usr/local/bin/shuttle
 Use ripgrep instead (rg)
 
 ```console
-curl -LO https://github.com/lunarway/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/lunarway/shuttle/releases/latest | rg -o '[^/]*$')/shuttle-darwin-amd64
+curl -LO https://github.com/kjuulh/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/kjuulh/shuttle/releases/latest | rg -o '[^/]*$')/shuttle-darwin-amd64
 chmod +x shuttle-darwin-amd64
 sudo mv shuttle-darwin-amd64 /usr/local/bin/shuttle
 ```
@@ -227,7 +227,7 @@ sudo mv shuttle-darwin-amd64 /usr/local/bin/shuttle
 ### Linux
 
 ```console
-curl -LO https://github.com/lunarway/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/lunarway/shuttle/releases/latest | grep -o '[^/]*$')/shuttle-linux-amd64
+curl -LO https://github.com/kjuulh/shuttle/releases/download/$(curl -Lso /dev/null -w %{url_effective} https://github.com/kjuulh/shuttle/releases/latest | grep -o '[^/]*$')/shuttle-linux-amd64
 chmod +x shuttle-linux-amd64
 sudo mv shuttle-linux-amd64 /usr/local/bin/shuttle
 ```
@@ -238,7 +238,7 @@ Shuttle can be installed on your GitHub Runner by adding this line to your
 workflow:
 
 ```
-- use: lunarway/shuttle
+- use: kjuulh/shuttle
 ```
 
 After this point you can use shuttle in the scripts in your workflow job.
@@ -264,7 +264,7 @@ output to your needs.
 
 ```console
 $ shuttle plan
-https://github.com/lunarway/shuttle-example-go-plan.git
+https://github.com/kjuulh/shuttle-example-go-plan.git
 ```
 
 ### `shuttle has <variable>`
@@ -329,5 +329,5 @@ this they ignore errors and some YAML documents canont be parsed.
 
 ## Release History
 
-See the [releases](https://github.com/lunarway/shuttle/releases) for more
+See the [releases](https://github.com/kjuulh/shuttle/releases) for more
 information on changes between releases.

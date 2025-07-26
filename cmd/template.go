@@ -11,8 +11,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	tmplFuncs "github.com/lunarway/shuttle/pkg/templates"
-	"github.com/lunarway/shuttle/pkg/ui"
+	tmplFuncs "github.com/kjuulh/shuttle/pkg/templates"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 type context struct {

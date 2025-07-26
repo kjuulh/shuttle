@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
 	"github.com/stretchr/testify/assert"
 )
 

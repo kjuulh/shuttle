@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/lunarway/shuttle/pkg/browser"
-	"github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/browser"
+	"github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"github.com/spf13/cobra"
 )
 

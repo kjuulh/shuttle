@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors/golang/compile"
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/compile"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"github.com/stretchr/testify/assert"
 )
 

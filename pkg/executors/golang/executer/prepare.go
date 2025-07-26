@@ -7,11 +7,11 @@ import (
 	"log"
 	"time"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors/golang/compile"
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
-	golangerrors "github.com/lunarway/shuttle/pkg/executors/golang/errors"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/compile"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
+	golangerrors "github.com/kjuulh/shuttle/pkg/executors/golang/errors"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func prepare(

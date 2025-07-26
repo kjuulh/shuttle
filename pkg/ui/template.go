@@ -5,7 +5,7 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/lunarway/shuttle/pkg/templates"
+	"github.com/kjuulh/shuttle/pkg/templates"
 )
 
 func Template(destination io.Writer, name, text string, data interface{}) error {

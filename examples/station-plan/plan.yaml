@@ -1,4 +1,4 @@
-documentation: https://github.com/lunarway/shuttle
+documentation: https://github.com/kjuulh/shuttle
 scripts:
   build:
     description: Build the docker image

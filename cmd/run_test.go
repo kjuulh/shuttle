@@ -115,21 +115,21 @@ func TestRun(t *testing.T) {
 			name:      "branched git plan",
 			input:     args("-p", "testdata/project-git-branched", "run", "say"),
 			stdoutput: "something clever\n",
-			erroutput: "Cloning plan https://github.com/lunarway/shuttle-example-go-plan.git\n",
+			erroutput: "Cloning plan https://github.com/kjuulh/shuttle-example-go-plan.git\n",
 			err:       nil,
 		},
 		{
 			name:      "git plan",
 			input:     args("-p", "testdata/project-git", "run", "say"),
 			stdoutput: "something masterly\n",
-			erroutput: "Cloning plan https://github.com/lunarway/shuttle-example-go-plan.git\n",
+			erroutput: "Cloning plan https://github.com/kjuulh/shuttle-example-go-plan.git\n",
 			initErr:   errors.New("something"),
 		},
 		{
 			name:      "tagged git plan",
 			input:     args("-p", "testdata/project-git", "--plan", "#tagged", "run", "say"),
 			stdoutput: "something tagged\n",
-			erroutput: "\x1b[032;1mOverload git plan branch/tag/sha with tagged\x1b[0m\nCloning plan https://github.com/lunarway/shuttle-example-go-plan.git\n",
+			erroutput: "\x1b[032;1mOverload git plan branch/tag/sha with tagged\x1b[0m\nCloning plan https://github.com/kjuulh/shuttle-example-go-plan.git\n",
 			err:       nil,
 		},
 		{
@@ -150,7 +150,7 @@ func TestRun(t *testing.T) {
 		// {
 		// 	name:      "sha git plan",
 		// 	input:     args("-p", "testdata/project-git", "--plan", "#df4630118c7dfb594b4de903621681e677534638", "run", "say"),
-		// 	stdoutput: "\x1b[032;1mOverload git plan branch/tag/sha with 2b52c21\x1b[0m\nCloning plan https://github.com/lunarway/shuttle-example-go-plan.git\nsomething minor\n",
+		// 	stdoutput: "\x1b[032;1mOverload git plan branch/tag/sha with 2b52c21\x1b[0m\nCloning plan https://github.com/kjuulh/shuttle-example-go-plan.git\nsomething minor\n",
 		// 	erroutput: "",
 		// 	err:       nil,
 		// },

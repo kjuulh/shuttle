@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors"
 	"github.com/stretchr/testify/assert"
 )
 

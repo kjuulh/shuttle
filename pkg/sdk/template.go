@@ -7,7 +7,7 @@ import (
 	"path"
 	"text/template"
 
-	"github.com/lunarway/shuttle/pkg/templates"
+	"github.com/kjuulh/shuttle/pkg/templates"
 	"github.com/pkg/errors"
 )
 

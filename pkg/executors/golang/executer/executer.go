@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/compile"
-	"github.com/lunarway/shuttle/pkg/telemetry"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/compile"
+	"github.com/kjuulh/shuttle/pkg/telemetry"
 )
 
 // Executes an action based on which plan is used

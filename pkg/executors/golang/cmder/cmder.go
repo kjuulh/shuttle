@@ -9,7 +9,7 @@ import (
 	"os"
 	"reflect"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/executer"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/executer"
 	"github.com/spf13/cobra"
 )
 

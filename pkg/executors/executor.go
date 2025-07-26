@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 type Registry struct {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 const scriptHelpTemplate = `

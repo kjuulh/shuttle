@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/config"
 )
 
 var InvalidShuttlePathFile = errors.New("shuttle path did not point ot a shuttle.yaml file")

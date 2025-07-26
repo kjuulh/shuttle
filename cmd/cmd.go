@@ -11,10 +11,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors/golang/executer"
-	"github.com/lunarway/shuttle/pkg/telemetry"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/executer"
+	"github.com/kjuulh/shuttle/pkg/telemetry"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 var (
@@ -90,7 +90,7 @@ func newRoot(uii *ui.UI) (*cobra.Command, contextProvider, repositoryContext) {
 A CLI for handling shared build and deploy tools between many
 projects no matter what technologies the project is using.
 
-Read more about shuttle at https://github.com/lunarway/shuttle`, version),
+Read more about shuttle at https://github.com/kjuulh/shuttle`, version),
 		PersistentPreRun: func(cmd *cobra.Command, args []string) {
 			if verboseFlag {
 				uii.SetUserLevel(ui.LevelVerbose)

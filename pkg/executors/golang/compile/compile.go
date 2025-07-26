@@ -11,13 +11,13 @@ import (
 	"strings"
 
 	"dagger.io/dagger"
-	"github.com/lunarway/shuttle/pkg/executors/golang/codegen"
-	"github.com/lunarway/shuttle/pkg/executors/golang/compile/matcher"
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
-	golangerrors "github.com/lunarway/shuttle/pkg/executors/golang/errors"
-	"github.com/lunarway/shuttle/pkg/executors/golang/parser"
-	"github.com/lunarway/shuttle/pkg/executors/golang/shuttlefolder"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/codegen"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/compile/matcher"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
+	golangerrors "github.com/kjuulh/shuttle/pkg/executors/golang/errors"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/parser"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/shuttlefolder"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"golang.org/x/sync/errgroup"
 )
 

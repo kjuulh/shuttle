@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/lunarway/shuttle/cmd"
+	"github.com/kjuulh/shuttle/cmd"
 )
 
 func main() {

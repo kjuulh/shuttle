@@ -7,8 +7,8 @@ import (
 	"path"
 	"strings"
 
-	shuttleerrors "github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/ui"
+	shuttleerrors "github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"gopkg.in/yaml.v2"
 )
 

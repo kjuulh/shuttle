@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/go-cmd/cmd"
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"github.com/stretchr/testify/assert"
 )
 

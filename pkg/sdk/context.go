@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"path"
 
-	"github.com/lunarway/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/config"
 	"gopkg.in/yaml.v2"
 )
 

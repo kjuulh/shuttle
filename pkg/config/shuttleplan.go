@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/lunarway/shuttle/pkg/copy"
-	"github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/git"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/copy"
+	"github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/git"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"gopkg.in/yaml.v2"
 )
 

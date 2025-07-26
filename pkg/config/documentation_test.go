@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lunarway/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -41,43 +41,43 @@ func TestShuttleProjectContext_Documentation(t *testing.T) {
 		{
 			name:    "explicit HTTP docs",
 			planRef: "",
-			docsRef: "http://github.com/lunarway/shuttle",
-			result:  "http://github.com/lunarway/shuttle",
+			docsRef: "http://github.com/kjuulh/shuttle",
+			result:  "http://github.com/kjuulh/shuttle",
 			err:     nil,
 		},
 		{
 			name:    "explicit HTTPS docs",
 			planRef: "",
-			docsRef: "https://github.com/lunarway/shuttle",
-			result:  "https://github.com/lunarway/shuttle",
+			docsRef: "https://github.com/kjuulh/shuttle",
+			result:  "https://github.com/kjuulh/shuttle",
 			err:     nil,
 		},
 		{
 			name:    "no explicit docs and git plan ssh reference",
-			planRef: "git://git@github.com:lunarway/shuttle-example-go-plan.git",
+			planRef: "git://git@github.com:kjuulh/shuttle-example-go-plan.git",
 			docsRef: "",
-			result:  "https://github.com/lunarway/shuttle-example-go-plan.git",
+			result:  "https://github.com/kjuulh/shuttle-example-go-plan.git",
 			err:     nil,
 		},
 		{
 			name:    "no explicit docs and git plan http reference",
-			planRef: "http://github.com/lunarway/shuttle-example-go-plan.git",
+			planRef: "http://github.com/kjuulh/shuttle-example-go-plan.git",
 			docsRef: "",
-			result:  "http://github.com/lunarway/shuttle-example-go-plan.git",
+			result:  "http://github.com/kjuulh/shuttle-example-go-plan.git",
 			err:     nil,
 		},
 		{
 			name:    "no explicit docs and git plan https reference",
-			planRef: "https://github.com/lunarway/shuttle-example-go-plan.git",
+			planRef: "https://github.com/kjuulh/shuttle-example-go-plan.git",
 			docsRef: "",
-			result:  "https://github.com/lunarway/shuttle-example-go-plan.git",
+			result:  "https://github.com/kjuulh/shuttle-example-go-plan.git",
 			err:     nil,
 		},
 		{
 			name:    "no explicit docs and git plan has branch reference",
-			planRef: "https://github.com/lunarway/shuttle-example-go-plan.git#branch",
+			planRef: "https://github.com/kjuulh/shuttle-example-go-plan.git#branch",
 			docsRef: "",
-			result:  "https://github.com/lunarway/shuttle-example-go-plan.git",
+			result:  "https://github.com/kjuulh/shuttle-example-go-plan.git",
 			err:     nil,
 		},
 		{

@@ -9,10 +9,10 @@ import (
 
 	"github.com/go-cmd/cmd"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/errors"
-	"github.com/lunarway/shuttle/pkg/telemetry"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/errors"
+	"github.com/kjuulh/shuttle/pkg/telemetry"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func ShellExecutor(action config.ShuttleAction) (Executor, bool) {

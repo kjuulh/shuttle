@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 
 	"github.com/go-cmd/cmd"
-	"github.com/lunarway/shuttle/pkg/config"
-	"github.com/lunarway/shuttle/pkg/executors/golang/executer"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/executer"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func TaskExecutor(action config.ShuttleAction) (Executor, bool) {

@@ -6,9 +6,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/lunarway/shuttle/pkg/config"
-	golangerrors "github.com/lunarway/shuttle/pkg/executors/golang/errors"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/config"
+	golangerrors "github.com/kjuulh/shuttle/pkg/executors/golang/errors"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func List(

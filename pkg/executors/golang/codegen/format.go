@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/ui"
 )
 
 func Format(ctx context.Context, ui *ui.UI, shuttlelocaldir string) error {

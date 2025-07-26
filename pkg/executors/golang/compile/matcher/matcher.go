@@ -10,8 +10,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/lunarway/shuttle/pkg/executors/golang/discover"
-	"github.com/lunarway/shuttle/pkg/ui"
+	"github.com/kjuulh/shuttle/pkg/executors/golang/discover"
+	"github.com/kjuulh/shuttle/pkg/ui"
 	"golang.org/x/exp/slices"
 	"golang.org/x/mod/sumdb/dirhash"
 )

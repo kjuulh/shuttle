@@ -38,7 +38,7 @@ and put the code in there.
 
 ```bash
 go mod init actions
-go get github.com/lunarway/shuttle
+go get github.com/kjuulh/shuttle
 ```
 
 Create a golang submodule, and add shuttle to it.
@@ -49,7 +49,7 @@ package main
 
 import (
 	"context",
-	_ "github.com/lunarway/shuttle" // default the base shuttle so that it doesn't disappear from go.mod
+	_ "github.com/kjuulh/shuttle" // default the base shuttle so that it doesn't disappear from go.mod
 )
 
 func Build(ctx context.Context) error {
